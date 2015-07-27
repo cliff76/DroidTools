@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HelloCouchbaseGateway</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_debug_files">Explore files (debug)</string>
+    <string name="title_activity_file_explorer">FileExplorer</string>
+    <string name="title_activity_file_details">FileDetailsActivity</string>
+    <string name="file_name">File name</string>
+</resources>
