@@ -1,5 +1,14 @@
 apply plugin: 'com.android.library'
 
+version '1.0-FINAL'
+ext {
+    PUBLISH_GROUP_ID = 'com.cliftoncraig.droidtools'
+    PUBLISH_ARTIFACT_ID = 'droid-tools'
+    PUBLISH_VERSION = '1.0.0'
+    PUBLISH_DESCRIPTION = 'General purpose tools for Android'
+}
+
+
 android {
     compileSdkVersion 22
     buildToolsVersion "23.0.0 rc3"
@@ -22,3 +31,5 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.2.0'
 }
+
+apply from: 'https://raw.githubusercontent.com/cliff76/gradlehax/master/bintray/bintray.gradle'
